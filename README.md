@@ -72,7 +72,7 @@ src/main/resources
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/cadastro-pessoa.git
+git clone https://github.com/William-Willam/cadastro-pessoa.git
 cd cadastropessoa
 ```
 
