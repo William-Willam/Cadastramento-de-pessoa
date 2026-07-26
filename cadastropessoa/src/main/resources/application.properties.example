@@ -1,0 +1,8 @@
+spring.datasource.url=jdbc:mysql://localhost:3306/cadastro_pessoa
+spring.datasource.username=root
+spring.datasource.password=SUA_SENHA_AQUI
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+spring.thymeleaf.cache=false

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Pessoas</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div class="container">
+    <h1>Pessoas Cadastradas</h1>
+
+    <a href="/pessoas/novo" class="btn-novo"> ➕ Nova Pessoa</a>
+
+    <table>
+        <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="pessoa : ${pessoas}">
+            <td th:text="${pessoa.nome}"></td>
+            <td th:text="${pessoa.email}"></td>
+            <td th:text="${pessoa.telefone}"></td>
+            <td class="acoes">
+                <a th:href="@{/pessoas/editar/{id}(id=${pessoa.id})}" class="btn-editar"> 📑 Editar</a>
+                <a th:href="@{/pessoas/deletar/{id}(id=${pessoa.id})}"
+                   class="btn-excluir"
+                   onclick="return confirm('Tem certeza que deseja excluir?')">🗑️ Excluir</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
