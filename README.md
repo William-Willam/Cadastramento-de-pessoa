@@ -112,7 +112,10 @@ http://localhost:8080/pessoas
 - **Lista de pessoas** — exibe todas as pessoas cadastradas, com botões de Editar e Excluir
 - **Formulário de cadastro/edição** — mesmo formulário é reaproveitado para criar uma pessoa nova ou editar uma existente
 
-*(adicione aqui os prints do projeto rodando, se quiser)*
+<img width="1347" height="681" alt="image" src="https://github.com/user-attachments/assets/8bbf303a-e046-466c-95d7-5239f5136d24" />
+<img width="1364" height="684" alt="image" src="https://github.com/user-attachments/assets/c0c9fd98-4a56-4b08-a445-35f3ce0fb334" />
+
+
 
 ## 🧠 Conceitos aplicados
 
